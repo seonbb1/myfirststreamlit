@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="연수용페이지", page_icon="🤣")
+
 st.title("👋🏻 연수 실습 페이지(1023)")
 st.subheader("문현고 과학정보부")
 st.write("생명과학 1 담당")
@@ -16,6 +18,10 @@ st.warning("노란색 창") # ctrl+/ : 한번에 주석처리할때 단축
 #이미지 넣기, 캡션 넣기
 st.image("https://media.giphy.com/media/Eq49yQGJL835K/giphy.gif?cid=790b7611jfoucyqytiavw61vmtx6s36uw3o2twpv05eqsbdf&ep=v1_gifs_search&rid=giphy.gif&ct=g", caption="가장 좋아하는 동물은 펭귄") 
 st.video("https://www.youtube.com/watch?v=vp0ZsOrj6o0")
+
+from PIL import Image
+img = Image.open('data/와플곰 끝내준다.png')
+st.image(img)
 st.write("귀여운 쇠족제비 영상 보고 가세요")
 
-#저장은 소스제어 -> 
+#저장은 소스제어로
