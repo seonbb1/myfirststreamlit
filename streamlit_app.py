@@ -15,7 +15,7 @@ st.warning("노란색 창") # ctrl+/ : 한번에 주석처리할때 단축
 
 #이미지 넣기, 캡션 넣기
 st.image("https://media.giphy.com/media/Eq49yQGJL835K/giphy.gif?cid=790b7611jfoucyqytiavw61vmtx6s36uw3o2twpv05eqsbdf&ep=v1_gifs_search&rid=giphy.gif&ct=g", caption="가장 좋아하는 동물은 펭귄") 
-st.video("https://youtu.be/1dJeYFWfFTg?si=Ci1omhpwnQ5Grhl8")
+st.video("https://www.youtube.com/watch?v=vp0ZsOrj6o0")
 st.write("귀여운 쇠족제비 영상 보고 가세요")
 
 #저장은 소스제어 -> 
